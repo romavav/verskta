@@ -1,0 +1,443 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+:root {
+  --gap: 30px;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto.ttf') format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  min-width: 320px;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list-reset-bs {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.title-reset {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.header-container {
+  align-items: center;
+}
+
+.top {
+  background-color: #3F2AFF;
+  align-items: center;
+  padding-top: 29px;
+  padding-bottom: 26px;
+}
+
+.header-logo {
+  display: block;
+  margin-right: auto;
+}
+
+.header-nav {
+  justify-content: flex-end;
+}
+
+.header-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.header-list-item:not(:last-child) {
+  margin-right: 56px;
+}
+
+.mainphoto {
+  background-image: url(../img/Group\ 95.png);
+  border-radius: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 623px;
+}
+
+.model-items-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  color: #FFFFFF;
+  margin-bottom: 28px;
+}
+
+.model-items-descr {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 63px;
+}
+
+.btn-model {
+  align-items: center;
+  padding: 24px 75.5px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 21px;
+  align-items: center;
+  color: #FFFFFF;
+  background-color: #3F2AFF;
+  border-radius: 20px;
+}
+
+.model {
+  background-image: radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
+}
+
+.photo-descr {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.section-2 {
+  background-color: #fff;
+}
+
+.advantage {
+  padding-top: 78px;
+  padding-bottom: 80px;
+}
+
+.advantages-photo {
+  background-image: url(../img/Vectary\ texture\ \(1\).png);
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 142px;
+}
+
+.advantages {
+  margin-bottom: 25px;
+}
+
+.advantages-items-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: #2e2b44;
+  margin-bottom: 15px;
+  max-width: 380px;
+}
+
+.advantages-items-descr {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  align-items: center;
+  color: #666;
+  width: 576px;
+}
+
+.adv-svg {
+  margin-right: 30px;
+}
+
+.advantages-title-descr {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  align-items: center;
+  color: #666;
+  width: 100%;
+}
+
+.adv-list {
+  display: flex;
+  align-items: center;
+}
+
+.lecturer-title-descr {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 23px;
+}
+
+.lecturers {
+  padding-top: 74px;
+  padding-bottom: 74px;
+}
+
+.lecturer-link-descr {
+  margin-bottom: auto
+}
+
+.more {
+  padding-top: 74px;
+  padding-bottom: 47px;
+}
+
+.lecturer {
+  background-color: #212133;
+}
+
+.adv-1 {
+  background-image: url(../img/eye-circle.png);
+  background-repeat: no-repeat;
+  min-width: 80px;
+  height: 80px;
+  margin-right: 30px;
+}
+
+.adv-2 {
+  background-image: url(../img/fingers.png);
+  background-repeat: no-repeat;
+  min-width: 80px;
+  height: 80px;
+  margin-right: 30px;
+}
+
+.adv-3 {
+  background-image: url(../img/eye-circle\ \(1\).png);
+  background-repeat: no-repeat;
+  min-width: 80px;
+  height: 80px;
+  margin-right: 30px;
+}
+
+.lecturer-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-bottom: 6px;
+  margin-top: 27px;
+}
+
+.lecturer-descr {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #85859b;
+}
+
+.svg-item {
+  position: absolute;
+  top: 13px;
+  right: 18px;
+}
+
+.courses-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  align-items: center;
+  color: #212133;
+  margin-bottom: 23px;
+}
+
+.pic-1 {
+  background-image: url(../img/6.png);
+  background-repeat: no-repeat;
+  height: 180px;
+  background-position: center;
+  border-radius: 20px 20px 0 0;
+}
+
+.pic-2 {
+  background-image: url(../img/11.jpg);
+  background-repeat: no-repeat;
+  height: 180px;
+  background-position: center;
+  border-radius: 20px 20px 0 0;
+}
+
+.pic-3 {
+  background-image: url(../img/001.jpg);
+  background-repeat: no-repeat;
+  height: 180px;
+  background-position: center;
+  border-radius: 20px 20px 0 0;
+}
+
+.pic-4 {
+  background-image: url(../img/002.jpg);
+  background-repeat: no-repeat;
+  height: 180px;
+  background-position: center;
+  border-radius: 20px 20px 0 0;
+}
+
+.courses-link-descr {
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #EDF0F9;
+  min-height: 302px;
+}
+
+.course {
+  margin-bottom: 30px;
+}
+
+.course-2 {
+  margin-bottom: 30px;
+}
+
+.courses-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #212133;
+  margin-bottom: 9px;
+}
+
+.courses-descr {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.btn-courses {
+  align-items: center;
+  padding: 20.5px 59px;
+  background-color: #3F2AFF;
+  border-radius: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  width: 202px;
+  margin-top: auto;
+}
+
+.time {
+  margin-right: 5px;
+}
+
+.svg-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+}
+
+.section-footer {
+  padding-top: 28px;
+  padding-bottom: 24px;
+}
+
+.end {
+  background-color: #2E2B44;
+}
+
+.icons-list {
+  justify-content: center;
+}
+
+.icon:not(:last-child) {
+  margin-right: 32px;
+}
+
+.skillbox {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #2E2B44;
+}
+
+.skillbox-1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #3F2AFF;
+}
+
+.skillbox-container {
+  text-align: center;
+}
